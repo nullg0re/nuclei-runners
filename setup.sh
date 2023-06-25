@@ -1,6 +1,6 @@
 #!/bin/bash
 # install dependecies
-sudo apt install -y curl wget git zip dnsutils net-tools
+sudo apt install -y curl wget git zip dnsutils net-tools screen
 # install nuclei and nuclei templates
 wget https://github.com/projectdiscovery/nuclei/releases/download/v2.9.6/nuclei_2.9.6_linux_amd64.zip
 unzip nuclei_2.9.6_linux_amd64.zip
